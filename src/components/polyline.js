@@ -15,6 +15,10 @@ const props = {
     type: Array,
     twoWay: true
   },
+  strokeColor: {
+    type: String,
+    noBind: true
+  }
 }
 
 const events = [
